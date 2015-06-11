@@ -1,5 +1,5 @@
 <?php
-$res = $aluno->find($_REQUEST['id']);
+$resa = $aluno->find($_REQUEST['ida']);
 ?>
 
 <table border = 1>
@@ -9,8 +9,8 @@ $res = $aluno->find($_REQUEST['id']);
         <th>Nota</th>
     </tr>
     <?php
-        echo "<tr><td>{$res['nome']}</td>";
-        echo "<td>{$res['email']}</td>";
-        echo "<td>{$res['nota']}</td></tr>";
+        echo "<tr><td>{$resa['nome']}</td>";
+        echo "<td>{$resa['email']}</td>";
+        echo "<td>{$resa['nota']}</td></tr>";
     ?>
 </table>

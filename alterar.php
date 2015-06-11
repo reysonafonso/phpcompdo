@@ -1,6 +1,6 @@
 <?php
     if(!isset($_REQUEST['submit'])) {
-        $id = $_REQUEST['id'];
+        $id = $_REQUEST['ida'];
         $alt = $aluno->find($id);?>
         <form action="index.php?page=alterar" method="post">
             <p>Nome:<input type="text" name="nome" value="<?php echo $alt['nome'] ?>">
