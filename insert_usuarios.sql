@@ -5,7 +5,7 @@ INSERT INTO `school`.`usuarios`
 VALUES
 ('reysonafonso',
 'reyson@ufam.edu.br',
-'osnofinha1308'
+'1234567910'
 );
 
 INSERT INTO `school`.`usuarios`
